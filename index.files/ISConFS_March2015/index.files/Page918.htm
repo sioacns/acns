@@ -1,0 +1,2097 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+b\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>The fundamental development branch 4. “Cognitive modeling in the exact
+sciences” (“OEMMPU”)</title>
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Times New Roman";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;}
+@font-face
+	{font-family:Symbol;
+	panose-1:5 5 1 2 1 7 6 2 5 7;}
+@font-face
+	{font-family:"Franklin Gothic Demi";
+	panose-1:2 11 7 3 2 1 2 2 2 4;}
+@font-face
+	{font-family:Impact;
+	panose-1:2 11 8 6 3 9 2 5 2 4;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;}
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Monotype Corsiva";
+	panose-1:3 1 1 1 1 2 1 1 1 1;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:"Times New Roman";
+	font-size:10.0pt;
+	color:black;}
+p.MsoAccentText, li.MsoAccentText, div.MsoAccentText
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:Arial;
+	font-size:9.0pt;
+	color:blue;
+	font-weight:bold;}
+p.MsoOrganizationName, li.MsoOrganizationName, div.MsoOrganizationName
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:Arial;
+	font-size:14.0pt;
+	color:white;
+	font-weight:bold;}
+p.MsoTagline, li.MsoTagline, div.MsoTagline
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:Arial;
+	font-size:12.0pt;
+	color:#FFCC00;}
+p.MsoTitle3, li.MsoTitle3, div.MsoTitle3
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	line-height:114%;
+	text-align:left;
+	font-family:"Trebuchet MS";
+	font-size:16.0pt;
+	color:black;
+	letter-spacing:2.0pt;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:center;
+	font-family:"Times New Roman";
+	font-size:14.0pt;
+	color:black;
+	font-weight:bold;}
+ol
+	{margin-top:0in;
+	margin-bottom:0in;
+	margin-left:-2197in;}
+ul
+	{margin-top:0in;
+	margin-bottom:0in;
+	margin-left:-2197in;}
+@page
+	{size:8.-2019in 11.2232in;}
+-->
+</style>
+</head>
+
+<body link="#0066FF" vlink="#6633CC" style='margin:0'>
+
+<div style='position:absolute;width:7.-71in;height:45.0345in'>
+<!--[if gte vml 1]><v:group id="_x0000_s2666" style='position:absolute;left:107.5pt;
+ top:0;width:462.5pt;height:82.5pt;z-index:647' coordorigin="1079222,882407"
+ coordsize="58737,8286">
+ <v:rect id="_x0000_s2667" style='position:absolute;left:1079222;top:882407;
+  width:8573;height:8287;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="#ccf [1 lighten(51)]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:fill color2="white [7]" rotate="t" angle="-90" type="gradient"/>
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2668" style='position:absolute;left:1085824;
+  top:882407;width:52135;height:8268;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="blue [1]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2669" style='position:absolute;left:1081693;
+  top:886543;width:2068;height:2068;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="#ccf [1 lighten(51)]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2670" style='position:absolute;left:1083761;
+  top:886543;width:2068;height:2068;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="#99f [1 lighten(102)]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2671" style='position:absolute;left:1081693;
+  top:888611;width:2068;height:2068;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="#99f [1 lighten(102)]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2672" style='position:absolute;left:1083761;
+  top:884475;width:2068;height:2068;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="#ccf [1 lighten(51)]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2673" style='position:absolute;left:1079625;
+  top:884475;width:2068;height:2068;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="blue [1]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2674" style='position:absolute;left:1085829;
+  top:884475;width:2068;height:2068;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="#99f [1 lighten(102)]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2675" style='position:absolute;left:1085824;
+  top:882407;width:2068;height:2068;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="#ccf [1 lighten(51)]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2676" style='position:absolute;left:1083758;
+  top:888598;width:2068;height:2068;visibility:visible;mso-wrap-edited:f;
+  mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+  mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' fillcolor="blue [1]"
+  stroked="f" strokecolor="black [0]" strokeweight="0" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" weight="0" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect></v:group><![endif]--><![if !vml]><span style='position:absolute;
+z-index:647;left:141px;top:-2px;width:622px;height:115px'><img width=622
+height=115 src=image1998.png v:shapes="_x0000_s2666 _x0000_s2667 _x0000_s2668 _x0000_s2669 _x0000_s2670 _x0000_s2671 _x0000_s2672 _x0000_s2673 _x0000_s2674 _x0000_s2675 _x0000_s2676"></span><![endif]><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+ <v:stroke joinstyle="miter"/>
+ <v:path gradientshapeok="t" o:connecttype="rect"/>
+</v:shapetype><v:shape id="_x0000_s2677" type="#_x0000_t202" style='position:absolute;
+ left:0;top:81pt;width:36pt;height:24pt;z-index:648;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:648;
+left:0px;top:108px;width:48px;height:32px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=48 height=32 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s2677" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal><a href="../index.htm"><span lang=en-US style='text-decoration:
+  underline;language:en-US'>Back</span></a></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:shape id="_x0000_s2678" type="#_x0000_t202"
+ style='position:absolute;left:531.68pt;top:83.16pt;width:39pt;height:39pt;
+ z-index:649;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:649;
+left:709px;top:111px;width:52px;height:52px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=52 height=52 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s2678" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:center;text-align:center'><a
+  href=Page1277.htm><span lang=en-US style='text-decoration:underline;
+  language:en-US'>RUS</span></a></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:shape id="_x0000_s2679" type="#_x0000_t202"
+ style='position:absolute;left:201pt;top:82.5pt;width:330pt;height:343.5pt;
+ z-index:650;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="black [0]" stroked="f"
+ strokecolor="#fc0 [2]" strokeweight="0" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.7pt' inset="2.85pt,2.85pt,2.85pt,2.85pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:650;
+left:268px;top:110px;width:440px;height:458px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=440 height=458 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s2679" style='padding:2.85pt 2.85pt 2.85pt 2.85pt'
+  class=shape>
+  <p class=MsoTitle3><span lang=en-US style='font-size:14.0pt;font-family:"Times New Roman";
+  font-weight:bold;letter-spacing:0pt;language:en-US'>“The I</span><span
+  lang=en-US style='font-size:9.3239pt;font-family:"Times New Roman";
+  font-weight:bold;letter-spacing:0pt;language:en-US'><sup>st</sup></span><span
+  lang=ru style='font-size:14.0pt;font-family:"Times New Roman";font-weight:
+  bold;letter-spacing:0pt;language:ru'> </span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'>international scientific conference</span><span
+  lang=ru style='font-size:14.0pt;font-family:"Times New Roman";font-weight:
+  bold;letter-spacing:0pt;language:ru'> <br>
+  </span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'>on</span><span lang=ru style='font-size:
+  14.0pt;font-family:"Times New Roman";font-weight:bold;letter-spacing:0pt;
+  language:ru'> </span><span lang=en-US style='font-size:14.0pt;font-family:
+  "Times New Roman";font-weight:bold;letter-spacing:0pt;language:en-US'>fundamental</span><span
+  lang=ru style='font-size:14.0pt;font-family:"Times New Roman";font-weight:
+  bold;letter-spacing:0pt;language:ru'> </span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'>sciences</span><span lang=ru
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:ru'> <br>
+  &quot;</span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'>Actual</span><span lang=ru
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:ru'> </span><span lang=en-US style='font-size:
+  14.0pt;font-family:"Times New Roman";font-weight:bold;letter-spacing:0pt;
+  language:en-US'>problems</span><span lang=ru style='font-size:14.0pt;
+  font-family:"Times New Roman";font-weight:bold;letter-spacing:0pt;language:
+  ru'> </span><span lang=en-US style='font-size:14.0pt;font-family:"Times New Roman";
+  font-weight:bold;letter-spacing:0pt;language:en-US'>of modern</span><span
+  lang=ru style='font-size:14.0pt;font-family:"Times New Roman";font-weight:
+  bold;letter-spacing:0pt;language:ru'> <br>
+  </span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'>science</span><span lang=ru
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:ru'> </span><span lang=en-US style='font-size:
+  14.0pt;font-family:"Times New Roman";font-weight:bold;letter-spacing:0pt;
+  language:en-US'>and</span><span lang=ru style='font-size:14.0pt;font-family:
+  "Times New Roman";font-weight:bold;letter-spacing:0pt;language:ru'> </span><span
+  lang=en-US style='font-size:14.0pt;font-family:"Times New Roman";font-weight:
+  bold;letter-spacing:0pt;language:en-US'>technology</span><span lang=ru
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:ru'>: <br>
+  </span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'>cognitive approach</span><span lang=ru
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:ru'>&quot;</span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'>” <br>
+  (the 01</span><span lang=en-US
+  style='font-size:9.3239pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'><sup>st</sup></span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'>-31</span><span lang=en-US
+  style='font-size:9.3239pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'><sup>st</sup></span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:en-US'> of March</span><span lang=ru
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:ru'> </span><span lang=en-US style='font-size:
+  14.0pt;font-family:"Times New Roman";font-weight:bold;letter-spacing:0pt;
+  language:en-US'><span dir=ltr></span>2015 y</span><span lang=ru
+  style='font-size:14.0pt;font-family:"Times New Roman";font-weight:bold;
+  letter-spacing:0pt;language:ru'>.) – <br>
+  </span><span lang=en-US
+  style='font-size:14.0pt;font-family:"Times New Roman";letter-spacing:0pt;
+  language:en-US'>the procedure of the open performance <br>
+  with the scientific reports</span><span
+  lang=ru style='font-size:14.0pt;font-family:"Times New Roman";letter-spacing:
+  0pt;language:ru'> <br>
+  </span><span lang=en-US style='font-size:14.0pt;
+  font-family:"Times New Roman";letter-spacing:0pt;language:en-US'>and (or) multimedia-presentations <br>
+  of the experts, candidates, doctors <br>
+  and academicians of sciences in “SIO &quot;ACNS&quot;”, <br>
+  the open demonstration of achievements in the field <br>
+  of science, technology and education <br>
+  in “&quot;Saint-Petersburg <br>
+  exhibition centre named after L.I. Brezhnev&quot; <br>
+  at &quot;Exhibition of achievements <br>
+  of science and technology named after A.A. Sobchak&quot;” </span><span
+  lang=ru style='font-size:14.0pt;font-family:"Times New Roman";letter-spacing:
+  0pt;language:ru'><br>
+  </span><span lang=en-US style='font-size:14.0pt;
+  font-family:"Times New Roman";letter-spacing:0pt;language:en-US'>with accommodation in “The hotel &quot;Karelia&quot;” <br>
+  (“The group of hotels &quot;Intourist&quot;”)<br>
+  </span></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:shape id="_x0000_s2680" type="#_x0000_t202"
+ style='position:absolute;left:0;top:778.28pt;width:570pt;height:12pt;
+ z-index:651;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="black [0]" stroked="f"
+ strokecolor="#fc0 [2]" strokeweight="0" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.7pt' inset="2.85pt,2.85pt,2.85pt,2.85pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:651;
+left:0px;top:1038px;width:760px;height:16px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=760 height=16 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s2680" style='padding:2.85pt 2.85pt 2.85pt 2.85pt'
+  class=shape>
+  <p class=MsoTitle3 style='text-align:center;text-align:center'><!--[if gte vml 1]><v:line
+   id="_x0000_s2727" style='visibility:visible;mso-wrap-edited:f;
+   mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+   mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' from="2.88pt,3.6pt"
+   to="375pt,3.73pt" strokecolor="black [0]" strokeweight="1.5pt" o:cliptowrap="t">
+   <v:stroke color2="white [7]">
+    <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+    <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+    <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+    <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+    <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+   </v:stroke>
+   <v:shadow color="#ccc [4]"/>
+   <v:path insetpenok="f"/>
+   <o:lock v:ext="edit" ungrouping="t" grouping="t"/>
+  </v:line><![endif]--><![if !word & !ppt & !excel & !vml]><img width=503
+  height=7 src=image2265.png><![endif]></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:shape id="_x0000_s2681" type="#_x0000_t202"
+ style='position:absolute;left:0;top:736.25pt;width:570pt;height:42pt;
+ z-index:652;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:652;
+left:0px;top:982px;width:760px;height:56px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=760 height=56 valign=middle style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s2681" style='padding:9.0pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>It is carried out according to the information letter from the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of November 2014 y. №ACNS-14-000100 <br>
+  of “AUT CMT SFA”, academician of (natural) sciences (“SIO &quot;ACNS&quot;”) Vetrov A.N.</span></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:shape id="_x0000_s2682" type="#_x0000_t202"
+ style='position:absolute;left:0;top:3273pt;width:570pt;height:12pt;z-index:653;
+ visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="black [0]" stroked="f"
+ strokecolor="#fc0 [2]" strokeweight="0" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.7pt' inset="2.85pt,2.85pt,2.85pt,2.85pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:653;
+left:0px;top:4364px;width:760px;height:16px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=760 height=16 valign=bottom style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s2682" style='padding:2.85pt 2.85pt 2.85pt 2.85pt'
+  class=shape>
+  <p class=MsoAccentText style='text-align:right;text-align:right'><!--[if gte vml 1]><v:line
+   id="_x0000_s2726" style='visibility:visible;mso-wrap-edited:f;
+   mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+   mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' from="2.88pt,3.36pt"
+   to="148.79319mm,3.36pt" strokecolor="blue [1]" strokeweight=".35269mm"
+   o:cliptowrap="t">
+   <v:stroke>
+    <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+    <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+    <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+    <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+    <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+   </v:stroke>
+   <v:shadow color="#ccc [4]"/>
+   <v:path insetpenok="f"/>
+   <o:lock v:ext="edit" ungrouping="t" grouping="t"/>
+  </v:line><![endif]--><![if !word & !ppt & !excel & !vml]><img width=565
+  height=7 src=image2269.png><![endif]></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:shape id="_x0000_s2683" type="#_x0000_t202"
+ style='position:absolute;left:9pt;top:790.28pt;width:552.75pt;height:2482.72pt;
+ z-index:654;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:654;
+left:12px;top:1054px;width:737px;height:3310px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=737 height=3310 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s2683" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal style='text-align:right;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:right'><span lang=en-US style='font-size:11.0pt;
+  language:en-US'>“The I</span><span lang=en-US style='font-size:7.3259pt;
+  language:en-US'><sup>st</sup></span><span lang=ru style='font-size:11.0pt;
+  font-family:"Times New Roman";language:ru'> </span><span lang=en-US
+  style='font-size:11.0pt;language:en-US'>international scientific conference</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>on</span><span lang=ru
+  style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>fundamental</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>sciences</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'><br>
+  &quot;</span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>Actual</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>problems</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>of modern</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>science</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>and</span><span lang=ru
+  style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>technology</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'>: </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>cognitive</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>approach</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'>&quot;</span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>” (the 01</span><span
+  lang=en-US style='font-size:7.3259pt;language:en-US'><sup>st</sup></span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>-31</span><span
+  lang=en-US style='font-size:7.3259pt;language:en-US'><sup>st</sup></span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'> of March</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'><span dir=ltr></span>2015 y</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'>.</span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>) <br>
+  (page 1 from 1 pages)</span></p>
+  <p class=MsoHeading7><span lang=ru style='font-size:12.0pt;font-family:"Times New Roman";
+  color:#33CC33;language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:12.0pt;
+  text-decoration:underline;language:en-US'>The fundamental development branch 4. <br>
+  “Cognitive modeling in the exact sciences” (“OEMMPU”)</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:12.0pt;
+  language:en-US'>The salutatory word </span><span lang=ru style='font-size:
+  12.0pt;font-family:"Times New Roman";language:ru'><br>
+  </span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>on the branch</span><span
+  lang=ru style='font-size:12.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>“Cognitive modeling in the exact sciences”</span><span
+  lang=ru style='font-size:12.0pt;font-family:"Times New Roman";language:ru'> (</span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>“OEMMPU”)</span><span
+  lang=ru style='font-size:12.0pt;font-family:"Times New Roman";language:ru'> <br>
+  </span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>of “SIO &quot;ACNS&quot;”</span><span
+  lang=ru style='font-size:12.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>(day time session)</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>The place of carrying out, room, date and interval of time</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>RF</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'>, </span><span lang=en-US style='language:
+  en-US'>Saint-Petersburg city</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>, “</span><span lang=en-US style='language:en-US'>SIO &quot;ACNS&quot;”</span><span
+  lang=en-US style='language:en-US'>,</span><span lang=en-US style='language:
+  en-US'> from</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of January</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'><span
+  dir=ltr></span>2015 y</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>. </span><span lang=en-US style='language:en-US'><span dir=ltr></span>00:00:00</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>to</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of March</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'><span dir=ltr></span>2015 y</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>.</span><span
+  lang=en-US style='language:en-US'> 23:59:59</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'>
+  <table style='display:inline' cellpadding=0 cellspacing=0 width=718
+   height=337 border=0 dir=ltr style='width:538.4829pt;height:252.87pt;
+   table-layout:fixed;border-collapse:collapse'>
+   <tr>
+    <td width=33 height=169 style='width:24.87pt;height:126.87pt;padding-left:
+    2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:2.88pt;
+    border-left:solid black .75pt;border-top:solid black .75pt;border-right:
+    solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=ru style='font-family:"Times New Roman";language:ru'>№</span></p>
+    </td>
+    <td width=97 height=169 style='width:72.7156pt;height:126.87pt;padding-left:
+    2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:2.88pt;
+    border-left:solid black .75pt;border-top:solid black .75pt;border-right:
+    solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=en-US style='language:en-US'>UDC <br>
+    of scientific report <br>
+    and (or) multimedia-presentation</span></p>
+    </td>
+    <td width=200 height=169 style='width:150.0343pt;height:126.87pt;
+    padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+    2.88pt;border-left:solid black .75pt;border-top:solid black .75pt;
+    border-right:solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=en-US style='language:en-US'>First name, <br>
+    Middle initials, Last name, <br>
+    scientific degree, scientific rank, <br>
+    (name of academy of sciences <br>
+    or HEI which has issued diploma), <br>
+    post in organization, <br>
+    country, city, organization, <br>
+    WWW address and E-mail address <br>
+    of the author of scientific report <br>
+    and (or) multimedia-presentation</span></p>
+    </td>
+    <td width=291 height=169 style='width:218.1471pt;height:126.87pt;
+    padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+    2.88pt;border-left:solid black .75pt;border-top:solid black .75pt;
+    border-right:solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=en-US style='language:en-US'>Name (nomen) <br>
+    of scientific report <br>
+    and (or) multimedia-presentation</span></p>
+    </td>
+    <td width=97 height=169 style='width:72.7158pt;height:126.87pt;padding-left:
+    2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:2.88pt;
+    border-left:solid black .75pt;border-top:solid black .75pt;border-right:
+    solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=en-US style='language:en-US'>URL <br>
+    of scientific report <br>
+    and (or) multimedia-presentation</span></p>
+    </td>
+   </tr>
+   <tr>
+    <td width=33 height=168 valign=Top style='width:24.87pt;height:126.0pt;
+    padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+    2.88pt;border-left:solid black .75pt;border-top:solid black .75pt;
+    border-right:solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:right;text-align:right'><span
+    lang=en-US style='language:en-US'><span dir=ltr></span>1.</span></p>
+    </td>
+    <td width=97 height=168 style='width:72.7156pt;height:126.0pt;padding-left:
+    2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:2.88pt;
+    border-left:solid black .75pt;border-top:solid black .75pt;border-right:
+    solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=en-US style='language:en-US'>UDC</span></p>
+    </td>
+    <td width=200 height=168 style='width:150.0343pt;height:126.0pt;padding-left:
+    2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:2.88pt;
+    border-left:solid black .75pt;border-top:solid black .75pt;border-right:
+    solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=en-US style='language:en-US'>Vetrov Anatoly Nikolaevich</span><span
+    lang=ru style='font-family:"Times New Roman";language:ru'>, <br>
+    </span><span
+    lang=en-US style='language:en-US'>academician</span><span lang=ru
+    style='font-family:"Times New Roman";language:ru'> </span><span lang=en-US
+    style='language:en-US'>of </span><span lang=ru style='font-family:"Times New Roman";
+    language:ru'>(</span><span lang=en-US style='language:en-US'>natural</span><span
+    lang=ru style='font-family:"Times New Roman";language:ru'>) </span><span
+    lang=en-US style='language:en-US'>sciences</span><span lang=ru
+    style='font-family:"Times New Roman";language:ru'> <br>
+    (“</span><span
+    lang=en-US style='language:en-US'>SIO &quot;ACNS&quot;”</span><span
+    lang=ru style='font-family:"Times New Roman";language:ru'>), <br>
+    </span><span
+    lang=en-US style='language:en-US'>The President</span><span lang=ru
+    style='font-family:"Times New Roman";language:ru'> <br>
+    </span><span
+    lang=en-US style='language:en-US'>of “SIO &quot;ACNS&quot;”, </span><span
+    lang=ru style='font-family:"Times New Roman";language:ru'><br>
+    </span><span
+    lang=en-US style='language:en-US'>RF</span><span lang=ru style='font-family:
+    "Times New Roman";language:ru'>, </span><span lang=en-US style='language:
+    en-US'>Saint-Petersburg city</span><span lang=ru style='font-family:"Times New Roman";
+    language:ru'>, <br>
+    </span><span lang=en-US style='language:en-US'>“SIO</span><span
+    lang=ru style='font-family:"Times New Roman";language:ru'> &quot;</span><span
+    lang=en-US style='language:en-US'>Academy</span><span lang=ru
+    style='font-family:"Times New Roman";language:ru'> </span><span lang=en-US
+    style='language:en-US'>of cognitive</span><span lang=ru style='font-family:
+    "Times New Roman";language:ru'> <br>
+    </span><span lang=en-US
+    style='language:en-US'>natural</span><span lang=ru style='font-family:"Times New Roman";
+    language:ru'> </span><span lang=en-US style='language:en-US'>sciences</span><span
+    lang=ru style='font-family:"Times New Roman";language:ru'>&quot;</span><span
+    lang=en-US style='language:en-US'>”, <br>
+    www.vetrovan.spb.ru, <br>
+    vetrovan@nwgsm.ru<br>
+    </span></p>
+    </td>
+    <td width=291 height=168 style='width:218.1471pt;height:126.0pt;padding-left:
+    2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:2.88pt;
+    border-left:solid black .75pt;border-top:solid black .75pt;border-right:
+    solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=en-US style='language:en-US'>“The fundamental scientific researches branch <br>
+    “Cognitive modeling <br>
+    in the exact sciences” (“OEMMPU”) <br>
+    of “SIO &quot;Academy of cognitive <br>
+    natural sciences&quot;”” <br>
+    (scientific report)</span></p>
+    </td>
+    <td width=97 height=168 style='width:72.7158pt;height:126.0pt;padding-left:
+    2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:2.88pt;
+    border-left:solid black .75pt;border-top:solid black .75pt;border-right:
+    solid black .75pt;border-bottom:solid black .75pt'>
+    <p class=MsoNormal style='text-align:center;text-align:center'><span
+    lang=ru style='font-family:"Times New Roman";language:ru'>(</span><a
+    href="VetrovAN_4_sec_1_2015_March_The_SIO_ACNS_The_FSRB_Cognitive_modeling_in_the_exact_sciences_NC_ENG.pdf"><span
+    lang=en-US style='text-decoration:underline;language:en-US'>download</span></a><span
+    lang=ru style='font-family:"Times New Roman";language:ru'>)</span></p>
+    </td>
+   </tr>
+  </table>
+  </p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:12.0pt;
+  language:en-US'>The salutatory word of the invited </span><span lang=ru
+  style='font-size:12.0pt;font-family:"Times New Roman";language:ru'><br>
+  </span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>on the branch</span><span
+  lang=ru style='font-size:12.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>“Cognitive modeling in the exact sciences”</span><span
+  lang=ru style='font-size:12.0pt;font-family:"Times New Roman";language:ru'> (</span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>“OEMMPU”)</span><span
+  lang=ru style='font-size:12.0pt;font-family:"Times New Roman";language:ru'> <br>
+  </span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>of “SIO &quot;ACNS&quot;”</span><span
+  lang=ru style='font-size:12.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:12.0pt;language:en-US'>(day time session)</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>The place of carrying out, room, date and interval of time</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>RF</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'>, </span><span lang=en-US style='language:
+  en-US'>Saint-Petersburg city</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>, “</span><span lang=en-US style='language:en-US'>SIO &quot;ACNS&quot;”</span><span
+  lang=en-US style='language:en-US'>,</span><span lang=en-US style='language:
+  en-US'> from</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of January</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'><span
+  dir=ltr></span>2015 y</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>. </span><span lang=en-US style='language:en-US'><span dir=ltr></span>00:00:00</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>to</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of March</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'><span dir=ltr></span>2015 y</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>.</span><span
+  lang=en-US style='language:en-US'> 23:59:59</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:11.0pt;
+  color:red;language:en-US'>The scientific reports and (or) multimedia-presentations on fundamental sciences did not give</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=ru style='font-size:12.0pt;font-family:
+  "Times New Roman";text-decoration:underline;language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:12.0pt;
+  font-style:italic;text-decoration:underline;language:en-US'>The open performances with scientific reports and (or) multimedia-presentations <br>
+  on sections of </span><span
+  lang=en-US style='font-size:12.0pt;text-decoration:underline;language:en-US'>“SIO &quot;ACNS&quot;”</span><span
+  lang=en-US style='font-size:12.0pt;font-style:italic;text-decoration:underline;
+  language:en-US'> (residents and non-residents)</span></p>
+  <p class=MsoNormal style='margin-left:28.5pt;text-indent:-28.5pt'><span
+  lang=en-US style='font-size:11.0pt;color:black;font-weight:bold;language:
+  en-US'><span dir=ltr></span>3.4.1. The fundamental scientific researches section <br>
+  “The theory of (theoretical) mechanics and gyroscopes” (“SM”)(*)<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='font-family:Symbol;language:en-US'>Þ</span><span
+  lang=en-US style='font-size:1.0pt;language:en-US'> </span><span lang=en-US
+  style='color:#00CC00;font-style:italic;language:en-US'>The theoretical mechanics (*) </span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>– </span><span
+  lang=en-US style='language:en-US'>the general questions of theoretical mechanics, <br>
+  </span><span
+  lang=en-US style='language:en-US'>theoretical bases, general tasks and methods of mechanics, <br>
+  theory of general mechanics, theory of mechanics of liquid and gas, <br>
+  theory of machanics of deformable firm body, theory of complex and special sections of mechanics, <br>
+  theoretical bases of cognitive modeling technology in theoretical mechanics, <br>
+  theoretical bases of formation of parametrical cognitive</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>models block <br>
+  for the complex system analysis of difficult objects, processes and phenomena of mechanics, <br>
+  theory of representation ways of structure of cognitive</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>model and difficult problem environments: <br>
+  formal classical of the 0</span><span
+  lang=en-US style='language:en-US'><sup>th</sup></span><span lang=en-US
+  style='language:en-US'> generation (logical and production models), <br>
+  nonformal classical of the 0</span><span
+  lang=en-US style='language:en-US'><sup>th</sup></span><span lang=en-US
+  style='language:en-US'> generation (semantic network, frame network and ontology), <br>
+  formal new of the 0</span><span
+  lang=en-US style='language:en-US'><sup>th</sup></span><span lang=en-US
+  style='language:en-US'> generation (calculus of theory of sets and corteges on domains <br>
+  and innovative calculus of theory of sets and graphs), <br>
+  nonformal new of the 0</span><span
+  lang=en-US style='language:en-US'><sup>th</sup></span><span lang=en-US
+  style='language:en-US'> generation (multilevel structural scheme <br>
+  and multilevel encapsulated pyramids combining theory of graphs and theory of sets), <br>
+  flat of the 1</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> generation (cognitive disc and cognitive circle), <br>
+  volumetric of the 1</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> generation (cognitive cylinder, cognitive cone and cognitive sphere), <br>
+  flat and volumetric of the 2</span><span
+  lang=en-US style='language:en-US'><sup>nd</sup></span><span lang=en-US
+  style='language:en-US'> generation (one-, two-, three-, four-, five- and more cognitive disc, <br>
+  cognitive circle, cognitive cylinder, cognitive cone and cognitive sphere), <br>
+  hybrid of the 3</span><span
+  lang=en-US style='language:en-US'><sup>rd</sup></span><span lang=en-US
+  style='language:en-US'> generation (combinations of the existing cognitive models), <br>
+  theory of </span><span
+  lang=en-US style='language:en-US'>adaptive automation means </span><span
+  lang=en-US style='language:en-US'>of objects, processes and phenomena </span><span
+  lang=en-US style='language:en-US'>of</span><span lang=en-US style='language:
+  en-US'> mechanics, <br>
+  theory of technical means of research support of difficult objects, processes and phenomena of mechanics, <br>
+  theory of technical means of the complex system analysis support <br>
+  of difficult objects, processes and phenomena of mechanics <br>
+  (</span><span
+  lang=en-US style='color:black;language:en-US'>automation means of forming and research based on cognitive disc,</span><span
+  lang=en-US style='language:en-US'> <br>
+  </span><span lang=en-US
+  style='color:black;language:en-US'>automation means of forming and research based on cognitive circle</span><span
+  lang=ru style='font-family:"Times New Roman";color:black;language:ru'>, <br>
+  </span><span
+  lang=en-US style='color:black;language:en-US'>automation means of forming and research based on cognitive cylinder, <br>
+  automation means of forming and research based on cognitive cone, <br>
+  </span><span
+  lang=en-US style='color:black;letter-spacing:-.05pt;language:en-US'>automation means of forming and research</span><span
+  lang=ru style='font-family:"Times New Roman";color:black;language:ru'> </span><span
+  lang=en-US style='color:black;language:en-US'>based on </span><span
+  lang=en-US style='color:black;letter-spacing:-.05pt;language:en-US'>cognitive sphere </span><span
+  lang=ru style='font-family:"Times New Roman";color:black;language:ru'><br>
+  </span><span
+  lang=en-US style='color:black;language:en-US'>and </span><span lang=en-US
+  style='color:black;language:en-US'>automation means of forming and research based on <br>
+  one-, two-, tree-, fore-, five- and more cognitive sphere and others)</span><span
+  lang=en-US style='language:en-US'>;<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='font-family:Symbol;language:en-US'>Þ</span><span
+  lang=en-US style='font-size:2.0pt;language:en-US'> </span><span lang=en-US
+  style='font-style:italic;language:en-US'>The theoretical mechatronics</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>–</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>the general questions of theoretical mechatronics, <br>
+  </span><span
+  lang=en-US style='language:en-US'>theoretical bases, general tasks and methods of mechatronics</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>, <br>
+  </span><span
+  lang=en-US style='language:en-US'>theory of general mechatronics</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>, </span><span
+  lang=en-US style='language:en-US'>theory of mechatronics of liquid and gas, theory of mechatronics of deformable firm body, <br>
+  theory of complex and special sections of mechatronics</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>,</span><span
+  lang=en-US style='language:en-US'> theory of automation means and devices of mechatronics, <br>
+  theory of cognitive modeling technology in theoretical mechatronics</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>(theory of hyroscope building)</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>.<br>
+  </span></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:newspaper;
+  margin-left:14.25pt;text-indent:-14.25pt;text-align:justify;text-justify:
+  newspaper'><span lang=ru style='font-size:1.0pt;font-family:"Times New Roman";
+  language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:justify;text-justify:newspaper;
+  margin-left:14.25pt;text-indent:-14.25pt;text-align:justify;text-justify:
+  newspaper'><span lang=ru style='font-size:1.0pt;font-family:"Times New Roman";
+  language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>The place of carrying out, room, date and interval of time</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>RF</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'>, </span><span lang=en-US style='language:
+  en-US'>Saint-Petersburg city</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>, “</span><span lang=en-US style='language:en-US'>SIO &quot;ACNS&quot;”</span><span
+  lang=en-US style='language:en-US'>,</span><span lang=en-US style='language:
+  en-US'> from</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of January</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'><span
+  dir=ltr></span>2015 y</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>. </span><span lang=en-US style='language:en-US'><span dir=ltr></span>00:00:00</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>to</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of March</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'><span dir=ltr></span>2015 y</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>.</span><span
+  lang=en-US style='language:en-US'> 23:59:59</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=ru style='font-size:12.0pt;font-family:
+  "Times New Roman";font-style:italic;language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:12.0pt;
+  font-style:italic;language:en-US'>The reporters on the fundamental scientific researches section <br>
+  “The theory of (theoretical) mechanics and gyroscopes” (“SM”)(*)</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:11.0pt;
+  color:red;language:en-US'>The scientific reports and (or) multimedia-presentations on fundamental sciences did not give</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=ru style='font-size:11.0pt;font-family:
+  "Times New Roman";language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-left:28.5pt;text-indent:-28.5pt'><span
+  lang=en-US style='font-size:11.0pt;color:black;font-weight:bold;language:
+  en-US'><span dir=ltr></span>3.4.2. The fundamental scientific researches section <br>
+  “The theory of mechanical engineering, instrument making and metrology” (“SPMPU”)<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='font-size:1.0pt;font-weight:bold;language:en-US'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='font-family:Symbol;language:en-US'>Þ</span><span
+  lang=en-US style='font-size:4.0pt;language:en-US'> </span><span lang=en-US
+  style='font-style:italic;language:en-US'>The theoretical mechanical engineering</span><span
+  lang=en-US style='language:en-US'> </span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'>–</span><span lang=en-US style='language:en-US'> </span><span
+  lang=en-US style='language:en-US'>the general questions of theoretical mechanical engineering, <br>
+  </span><span
+  lang=en-US style='language:en-US'>theory of engineering science and details of machines, theory of machine-building materials, <br>
+  theory of technology of mechanical engineering, <br>
+  theory of foundry manufacture, theory of forge-stamp</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>manufacture, theory of assembly manufacture, <br>
+  theory of cutting of materials, theory of electrical-physical-chemical processings, theory of thermal and strengthening processing, <br>
+  theory of furnish of surfaces and drawings of coverings, theory of manufacture of products from powder materials, <br>
+  theory of manufacture of nonmetallic products, theory of machine-tool construction, theory of robotics, <br>
+  theory of tool manufacture, theory of mining mechanical engineering, theory of metallurgical mechanical engineering, <br>
+  theory of reactor constraction</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>, </span><span
+  lang=en-US style='language:en-US'>theory of turbine construction, theory of special power-engineering installations, <br>
+  theory of chemical and oil mechanical engineering, theory of locomotive construction</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>and carriage car building, <br>
+  theory of engine construction</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>, </span><span
+  lang=en-US style='language:en-US'>theory of motor car industry, theory of ship building, theory of aircraft construction, <br>
+  theory of space technics and rocket production, theory of hoisting-transport mechanical engineering, <br>
+  theory of building and road mechanical engineering, theory of communal (municipal) mechanical engineering, <br>
+  theory of tractor and agricultural mechanical engineering, theory of mechanical engineering for light industry, <br>
+  theory of polygraphical mechanical engineering, theory of mechanical engineering for food-processing industry, <br>
+  theory of mechanical engineering for trade and public catering, theory of manufacture of household machines and devices, <br>
+  theory of manufacture of weapon, theoretical bases of other branches of mechanical engineering, <br>
+  theory of cognitive modeling technology in theoretical mechanical engineering;<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='font-family:Symbol;language:en-US'>Þ</span><span
+  lang=en-US style='font-size:2.0pt;language:en-US'> </span><span lang=en-US
+  style='font-style:italic;language:en-US'>The theoretical instrument making </span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>– </span><span
+  lang=en-US style='language:en-US'>the general questions of theoretical instrument making, <br>
+  theory of instrument making, theory of general technology of production and equipment in instrument making, <br>
+  theory of designing and constructing of devices, <br>
+  theory of devices for measurement of electric and magnetic sizes, <br>
+  theory of devices for measurement of mechanical sizes, theory of devices for measurement of time and frequency, <br>
+  theory of devices for measurement of structure and physical-chemical properties of substances and materials, <br>
+  theory of devices for thermal-technical</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>and thermal-physical</span><span lang=ru
+  style='font-family:"Times New Roman";language:ru'> </span><span lang=en-US
+  style='language:en-US'>measurements, <br>
+  theory of devices for measurement of acoustical sizes and characteristics, <br>
+  theory of devices for measurement of optical and lighting-technical sizes and characteristics, <br>
+  theory of devices for measurement of </span><span
+  lang=en-US style='language:en-US'>ionisation</span><span lang=ru
+  style='font-family:"Times New Roman";language:ru'> </span><span lang=en-US
+  style='language:en-US'>radiations, <br>
+  theory of devices of not destroying control of products and materials, <br>
+  theory of general structural elements, units of measuring devices and systems, <br>
+  theory of devices of interface, theory of office equipment means, <br>
+  </span><span
+  lang=en-US style='language:en-US'>theory of </span><span lang=en-US
+  style='language:en-US'>cognitive modeling technology in theoretical instrument making;<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='font-family:Symbol;language:en-US'>Þ</span><span
+  lang=en-US style='font-size:1.0pt;language:en-US'> </span><span lang=en-US
+  style='font-style:italic;language:en-US'>The theoretical metrology </span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>– </span><span
+  lang=en-US style='language:en-US'>the general questions of theoretical metrology, <br>
+  theory of scientific bases and technical means of metrology and metrological support, <br>
+  theory of state, national and international systems and services of metrology, <br>
+  theory of measurement of separate sizes and characteristics, <br>
+  theory of standard samples of structure and properties of substances and materials, <br>
+  </span><span
+  lang=en-US style='language:en-US'>theory of </span><span lang=en-US
+  style='language:en-US'>cognitive modeling technology in theoretical metrology (theory of measurement).<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>The place of carrying out, room, date and interval of time</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>RF</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'>, </span><span lang=en-US style='language:
+  en-US'>Saint-Petersburg city</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>, “</span><span lang=en-US style='language:en-US'>SIO &quot;ACNS&quot;”</span><span
+  lang=en-US style='language:en-US'>,</span><span lang=en-US style='language:
+  en-US'> from</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of January</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'><span
+  dir=ltr></span>2015 y</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>. </span><span lang=en-US style='language:en-US'><span dir=ltr></span>00:00:00</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>to</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of March</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'><span dir=ltr></span>2015 y</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>.</span><span
+  lang=en-US style='language:en-US'> 23:59:59</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=ru style='font-size:12.0pt;font-family:
+  "Times New Roman";font-style:italic;language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:12.0pt;
+  font-style:italic;language:en-US'>The reporters on the fundamental scientific researches section <br>
+  “The theory of mechanical engineering, <br>
+  instrument making and metrology” (“SPMPU”)</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:11.0pt;
+  color:red;language:en-US'>The scientific reports and (or) multimedia-presentations on fundamental sciences did not give</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=ru style='font-size:11.0pt;font-family:
+  "Times New Roman";language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-left:28.5pt;text-indent:-28.5pt'><span
+  lang=en-US style='font-size:11.0pt;color:black;font-weight:bold;language:
+  en-US'><span dir=ltr></span>3.4.3. The fundamental scientific researches section <br>
+  “The theory of power engineering and electrical engineering” (“SE”)<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=ru style='font-size:1.0pt;font-family:"Times New Roman";font-weight:
+  bold;language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='font-family:Symbol;language:en-US'>Þ</span><span
+  lang=en-US style='language:en-US'> </span><span lang=en-US style='font-style:
+  italic;language:en-US'>The theoretical power-engineering </span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>–</span><span
+  lang=en-US style='language:en-US'> </span><span lang=en-US style='language:
+  en-US'>the general questions of theoretical power-engineering, <br>
+  </span><span
+  lang=en-US style='language:en-US'>theory of power resources, theory of power balance, <br>
+  theory of electrical power engineering industry, theory ofl thermal power engineering industry, theory of heating engineering, <br>
+  theory of atomic power engineering, theory of water-power engineering, theory of helium power engineering,</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'><br>
+  theory of wind power engineering</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>, </span><span
+  lang=en-US style='language:en-US'>theory of direct transformation of energy, <br>
+  theory of cognitive modeling technology in theoretical power engineering;<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='font-family:Symbol;language:en-US'>Þ</span><span
+  lang=en-US style='font-size:8.0pt;language:en-US'> </span><span lang=en-US
+  style='font-style:italic;language:en-US'>The theoretical electrical engineering</span><span
+  lang=en-US style='language:en-US'> </span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'>–</span><span lang=en-US style='language:en-US'> </span><span
+  lang=en-US style='language:en-US'>the general questions of theoretical electrical engineering, <br>
+  </span><span
+  lang=en-US style='language:en-US'>theory of electrical engineering, theory of electrical-technical materials, <br>
+  theory of electrical machines, theory of electrical devices, theory of transformers, theory of electrical reactors, <br>
+  theory of power electrical condensers, theory of power converting technics, theory of electrical drive, <br>
+  theory of electrical-thermy</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>, </span><span
+  lang=en-US style='language:en-US'>theory of electrical-welding equipment, theory of wire and cable</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>, </span><span
+  lang=en-US style='language:en-US'>theory of electrical isolators, <br>
+  theory of light-technical engineering, theory of electrical-technical equipment of special purpose, <br>
+  theory of cognitive modeling technology in theoretical electrical engineering.<br>
+  </span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>The place of carrying out, room, date and interval of time</span></p>
+  <p class=MsoNormal style='margin-left:14.25pt;text-indent:-14.25pt'><span
+  lang=en-US style='language:en-US'>RF</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'>, </span><span lang=en-US style='language:
+  en-US'>Saint-Petersburg city</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>, “</span><span lang=en-US style='language:en-US'>SIO &quot;ACNS&quot;”</span><span
+  lang=en-US style='language:en-US'>,</span><span lang=en-US style='language:
+  en-US'> from</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of January</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'><span
+  dir=ltr></span>2015 y</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'>. </span><span lang=en-US style='language:en-US'><span dir=ltr></span>00:00:00</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='language:en-US'>to</span><span lang=ru style='font-family:
+  "Times New Roman";language:ru'> </span><span lang=en-US style='language:en-US'>the 01</span><span
+  lang=en-US style='language:en-US'><sup>st</sup></span><span lang=en-US
+  style='language:en-US'> of March</span><span lang=ru style='font-family:"Times New Roman";
+  language:ru'> </span><span lang=en-US style='language:en-US'><span dir=ltr></span>2015 y</span><span
+  lang=ru style='font-family:"Times New Roman";language:ru'>.</span><span
+  lang=en-US style='language:en-US'> 23:59:59</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=ru style='font-size:12.0pt;font-family:
+  "Times New Roman";font-style:italic;language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:12.0pt;
+  font-style:italic;language:en-US'>The reporters on the fundamental scientific researches section <br>
+  “The theory of power engineering and electrical engineering” (“SE”)</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=en-US style='font-size:11.0pt;
+  color:red;language:en-US'>The scientific reports and (or) multimedia-presentations on fundamental sciences did not give</span></p>
+  <p class=MsoNormal style='text-align:center;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:center'><span lang=ru style='font-size:11.0pt;font-family:
+  "Times New Roman";language:ru'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:right;margin-left:14.25pt;text-indent:
+  -14.25pt;text-align:right'><span lang=en-US style='font-size:11.0pt;
+  language:en-US'>“The I</span><span lang=en-US style='font-size:7.3259pt;
+  language:en-US'><sup>st</sup></span><span lang=ru style='font-size:11.0pt;
+  font-family:"Times New Roman";language:ru'> </span><span lang=en-US
+  style='font-size:11.0pt;language:en-US'>international scientific conference</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>on</span><span lang=ru
+  style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>fundamental</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>sciences</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'><br>
+  &quot;</span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>Actual</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>problems</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>of modern</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>science</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>and</span><span lang=ru
+  style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>technology</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'>: </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>cognitive</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>approach</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'>&quot;</span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>” (the 01</span><span
+  lang=en-US style='font-size:7.3259pt;language:en-US'><sup>st</sup></span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>-31</span><span
+  lang=en-US style='font-size:7.3259pt;language:en-US'><sup>st</sup></span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'> of March</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'> </span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'><span dir=ltr></span>2015 y</span><span
+  lang=ru style='font-size:11.0pt;font-family:"Times New Roman";language:ru'>.</span><span
+  lang=en-US style='font-size:11.0pt;language:en-US'>) <br>
+  (page 1 from 1 pages)</span></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:shape id="_x0000_s2684" type="#_x0000_t202"
+ style='position:absolute;left:0;top:3285pt;width:36pt;height:24pt;z-index:655;
+ mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:655;
+left:0px;top:4380px;width:48px;height:32px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=48 height=32 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s2684" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal><a href="../index.htm"><span lang=en-US style='text-decoration:
+  underline;language:en-US'>Back</span></a></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:group id="_x0000_s2685" style='position:absolute;
+ left:0;top:0;width:165.33pt;height:82.8pt;z-index:656' coordorigin="1065657,4572"
+ coordsize="20669,10515">
+ <v:rect id="_x0000_s2686" style='position:absolute;left:1065752;top:4667;
+  width:20523;height:10369' o:preferrelative="t" stroked="f" insetpen="t"
+  o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:imagedata src="image2416.emz" o:title=""/>
+  <v:path insetpenok="f"/>
+ </v:rect><v:rect id="_x0000_s2687" style='position:absolute;left:1065657;
+  top:4572;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,0,2.88pt,2.88pt">
+   <div dir=ltr>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>RF</span></p>
+   </div>
+  </v:textbox>
+ </v:rect><v:rect id="_x0000_s2688" style='position:absolute;left:1065657;
+  top:11620;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,0">
+   <div dir=ltr>
+   <p class=MsoNormal style='text-align:center;text-align:center'><span
+   lang=en-US style='font-size:8.5pt;font-family:Georgia;color:red;font-style:
+   italic;letter-spacing:-.5pt;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal style='text-align:center;text-align:center'><span
+   lang=en-US style='font-size:12.0pt;font-family:Georgia;color:red;font-style:
+   italic;language:en-US'>“RA(N)S”            “SIO &quot;ACNS&quot;”</span></p>
+   </div>
+  </v:textbox>
+ </v:rect></v:group><![endif]--><![if !vml]><span style='position:absolute;
+z-index:656;left:-1px;top:-2px;width:223px;height:114px'><img width=223
+height=114 src=image2415.png v:shapes="_x0000_s2685 _x0000_s2686 _x0000_s2687 _x0000_s2688"></span><![endif]><!--[if gte vml 1]><v:rect
+ id="_x0000_s2689" style='position:absolute;left:204pt;top:65.25pt;width:366pt;
+ height:15.75pt;z-index:657;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]"
+ strokecolor="white [7]" strokeweight=".17647mm" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke dashstyle="1 1" color2="white [7]">
+  <o:left v:ext="view" dashstyle="1 1" color="black [0]" color2="white [7]"
+   weight=".17647mm" joinstyle="miter"/>
+  <o:top v:ext="view" dashstyle="1 1" color="black [0]" color2="white [7]"
+   weight=".17647mm" joinstyle="miter"/>
+  <o:right v:ext="view" dashstyle="1 1" color="black [0]" color2="white [7]"
+   weight=".17647mm" joinstyle="miter"/>
+  <o:bottom v:ext="view" dashstyle="1 1" color="black [0]" color2="white [7]"
+   weight=".17647mm" joinstyle="miter"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt">
+  <div dir=ltr>
+  <p class=MsoTagline style='text-align:right;text-align:right'><span
+  lang=en-US style='font-size:10.0pt;font-family:Arial;color:white;language:
+  en-US'>of “The Russian academy of (natural) sciences” named after V.N. Veniaminov </span></p>
+  </div>
+ </v:textbox>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:657;
+left:269px;top:84px;width:494px;height:27px'><img width=494 height=27
+src=image2321.png
+alt="Text Box: of “The Russian academy of (natural) sciences” named after V.N. Veniaminov &#13;"
+v:shapes="_x0000_s2689"></span><![endif]><!--[if gte vml 1]><v:rect id="_x0000_s2690"
+ style='position:absolute;left:204pt;top:16.5pt;width:366pt;height:16.5pt;
+ z-index:658;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" strokecolor="white" strokeweight=".17647mm"
+ o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke dashstyle="1 1" color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt">
+  <div dir=ltr>
+  <p class=MsoOrganizationName><span lang=en-US style='font-size:10.0pt;
+  font-family:Arial;language:en-US'>The scientific-research institute</span></p>
+  </div>
+ </v:textbox>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:658;
+left:269px;top:19px;width:494px;height:28px'><img width=494 height=28
+src=image2322.png alt="Text Box: The scientific-research institute&#13;"
+v:shapes="_x0000_s2690"></span><![endif]><!--[if gte vml 1]><v:rect id="_x0000_s2691"
+ style='position:absolute;left:204pt;top:33pt;width:366pt;height:32.25pt;
+ z-index:659;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" strokecolor="white" strokeweight=".17647mm"
+ o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke dashstyle="1 1" color2="white [7]">
+  <o:left v:ext="view" dashstyle="1 1" color="white" color2="white [7]"
+   weight=".17647mm" joinstyle="miter"/>
+  <o:top v:ext="view" dashstyle="1 1" color="white" color2="white [7]"
+   weight=".17647mm" joinstyle="miter"/>
+  <o:right v:ext="view" dashstyle="1 1" color="white" color2="white [7]"
+   weight=".17647mm" joinstyle="miter"/>
+  <o:bottom v:ext="view" dashstyle="1 1" color="white" color2="white [7]"
+   weight=".17647mm" joinstyle="miter"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.25pt,2.88pt,2.25pt">
+  <div dir=ltr>
+  <p class=MsoOrganizationName style='line-height:90%'><span lang=en-US
+  style='font-size:13.0pt;line-height:90%;font-family:Arial;language:en-US'>“System and financial analysis <br>
+  based on cognitive modeling technology”</span></p>
+  </div>
+ </v:textbox>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:659;
+left:269px;top:41px;width:494px;height:49px'><img width=494 height=49
+src=image2323.png
+alt="Text Box: “System and financial analysis &#10;based on cognitive modeling technology”&#13;"
+v:shapes="_x0000_s2691"></span><![endif]><!--[if gte vml 1]><v:rect id="_x0000_s2692"
+ style='position:absolute;left:204pt;top:0;width:366pt;height:16.5pt;z-index:660;
+ mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" strokecolor="white" strokeweight=".17647mm"
+ o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke dashstyle="1 1" color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt">
+  <div dir=ltr>
+  <p class=MsoOrganizationName style='text-align:right;text-align:right'><span
+  lang=en-US style='font-size:10.0pt;font-family:Arial;language:en-US'>SIO “Academy of cognitive natural sciences”</span></p>
+  </div>
+ </v:textbox>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:660;
+left:269px;top:-3px;width:494px;height:28px'><img width=494 height=28
+src=image2967.png alt="Text Box: SIO “Academy of cognitive natural sciences”&#13;"
+v:shapes="_x0000_s2692"></span><![endif]><!--[if gte vml 1]><v:rect id="_x0000_s2693"
+ style='position:absolute;left:371.25pt;top:433.5pt;width:185.76pt;height:104.2pt;
+ z-index:661' o:preferrelative="t" filled="f" stroked="f" insetpen="t"
+ o:cliptowrap="t">
+ <v:stroke>
+  <o:left v:ext="view" joinstyle="miter"/>
+  <o:top v:ext="view" joinstyle="miter"/>
+  <o:right v:ext="view" joinstyle="miter"/>
+  <o:bottom v:ext="view" joinstyle="miter"/>
+ </v:stroke>
+ <v:imagedata src="image3084.emz" o:title=""/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:661;
+left:492px;top:576px;width:253px;height:143px'><img width=253 height=143
+src=image30841.png v:shapes="_x0000_s2693"></span><![endif]><!--[if gte vml 1]><v:rect
+ id="_x0000_s2694" style='position:absolute;left:0;top:105pt;width:99.48pt;
+ height:111pt;z-index:662;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' o:preferrelative="t" filled="f" fillcolor="white [7]"
+ stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:imagedata src="image465.png" o:title="gerb_rf_1_med"/>
+ <v:shadow color="#ccc [4]"/>
+ <v:path o:extrusionok="f" insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:662;
+left:-3px;top:138px;width:138px;height:153px'><img width=138 height=153
+src=image465.png v:shapes="_x0000_s2694"></span><![endif]><!--[if gte vml 1]><v:rect
+ id="_x0000_s2695" style='position:absolute;left:99pt;top:105pt;width:101.67pt;
+ height:111pt;z-index:663;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' o:preferrelative="t" filled="f" fillcolor="white [7]"
+ stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:imagedata src="image467.png" o:title="gerb_spb_1_med"/>
+ <v:shadow color="#ccc [4]"/>
+ <v:path o:extrusionok="f" insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:663;
+left:130px;top:138px;width:140px;height:153px'><img width=140 height=153
+src=image467.png v:shapes="_x0000_s2695"></span><![endif]><!--[if gte vml 1]><v:rect
+ id="_x0000_s2696" style='position:absolute;left:347.25pt;top:570.75pt;width:208.5pt;
+ height:29.25pt;z-index:664;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' o:preferrelative="t" filled="f" fillcolor="white [7]"
+ stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:imagedata src="image469.gif" o:title="c5"/>
+ <v:shadow color="#ccc [4]"/>
+ <v:path o:extrusionok="f" insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:664;
+left:461px;top:759px;width:283px;height:44px'><img width=283 height=44
+src=image4691.png v:shapes="_x0000_s2696"></span><![endif]><!--[if gte vml 1]><v:group
+ id="_x0000_s2697" style='position:absolute;left:17.25pt;top:336pt;width:163.63pt;
+ height:90pt;z-index:665' coordorigin="1071819,34728" coordsize="22860,12573">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:rect id="_x0000_s2698" style='position:absolute;left:1071819;top:38919;
+  width:22860;height:4191;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' fillcolor="blue" strokecolor="blue"
+  o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke color2="white [7]">
+   <o:left v:ext="view" color="blue" color2="white [7]" joinstyle="miter"/>
+   <o:top v:ext="view" color="blue" color2="white [7]" joinstyle="miter"/>
+   <o:right v:ext="view" color="blue" color2="white [7]" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="blue" color2="white [7]" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2699" style='position:absolute;left:1071819;
+  top:34728;width:22860;height:4191;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' strokecolor="white" o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke color2="white [7]">
+   <o:left v:ext="view" color="white" color2="white [7]" joinstyle="miter"/>
+   <o:top v:ext="view" color="white" color2="white [7]" joinstyle="miter"/>
+   <o:right v:ext="view" color="white" color2="white [7]" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="white" color2="white [7]" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect><v:rect id="_x0000_s2700" style='position:absolute;left:1071819;
+  top:43110;width:22860;height:4191;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' fillcolor="red" strokecolor="red"
+  o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke color2="white [7]">
+   <o:left v:ext="view" color="red" color2="white [7]" joinstyle="miter"/>
+   <o:top v:ext="view" color="red" color2="white [7]" joinstyle="miter"/>
+   <o:right v:ext="view" color="red" color2="white [7]" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="red" color2="white [7]" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </v:rect></v:group><![endif]--><![if !vml]><span style='position:absolute;
+z-index:665;left:20px;top:445px;width:224px;height:126px'><img width=224
+height=126 src=image473.png v:shapes="_x0000_s2697 _x0000_s2698 _x0000_s2699 _x0000_s2700"></span><![endif]><!--[if gte vml 1]><v:rect
+ id="_x0000_s2701" style='position:absolute;left:17.25pt;top:222pt;width:163.63pt;
+ height:109.3pt;z-index:666;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' o:preferrelative="t" filled="f" fillcolor="white [7]"
+ stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:imagedata src="image477.png" o:title="Flag_of_Europe_svg"/>
+ <v:shadow color="#ccc [4]"/>
+ <v:path o:extrusionok="f" insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:666;
+left:21px;top:293px;width:223px;height:151px'><img width=223 height=151
+src=image4771.jpg v:shapes="_x0000_s2701"></span><![endif]><!--[if gte vml 1]><v:rect
+ id="_x0000_s2702" style='position:absolute;left:12pt;top:441pt;width:87.75pt;
+ height:87.75pt;z-index:667' o:preferrelative="t" filled="f" stroked="f"
+ insetpen="t" o:cliptowrap="t">
+ <v:stroke>
+  <o:left v:ext="view" joinstyle="miter"/>
+  <o:top v:ext="view" joinstyle="miter"/>
+  <o:right v:ext="view" joinstyle="miter"/>
+  <o:bottom v:ext="view" joinstyle="miter"/>
+ </v:stroke>
+ <v:imagedata src="image534.png" o:title=""/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:667;
+left:14px;top:586px;width:122px;height:122px'><img width=122 height=122
+src=image534.png v:shapes="_x0000_s2702"></span><![endif]><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t144" coordsize="21600,21600" o:spt="144" adj="11796480" path="al10800,10800,10800,10800@2@14e">
+ <v:formulas>
+  <v:f eqn="val #1"/>
+  <v:f eqn="val #0"/>
+  <v:f eqn="sum 0 0 #0"/>
+  <v:f eqn="sumangle #0 0 180"/>
+  <v:f eqn="sumangle #0 0 90"/>
+  <v:f eqn="prod @4 2 1"/>
+  <v:f eqn="sumangle #0 90 0"/>
+  <v:f eqn="prod @6 2 1"/>
+  <v:f eqn="abs #0"/>
+  <v:f eqn="sumangle @8 0 90"/>
+  <v:f eqn="if @9 @7 @5"/>
+  <v:f eqn="sumangle @10 0 360"/>
+  <v:f eqn="if @10 @11 @10"/>
+  <v:f eqn="sumangle @12 0 360"/>
+  <v:f eqn="if @12 @13 @12"/>
+  <v:f eqn="sum 0 0 @14"/>
+  <v:f eqn="val 10800"/>
+  <v:f eqn="cos 10800 #0"/>
+  <v:f eqn="sin 10800 #0"/>
+  <v:f eqn="sum @17 10800 0"/>
+  <v:f eqn="sum @18 10800 0"/>
+  <v:f eqn="sum 10800 0 @17"/>
+  <v:f eqn="if @9 0 21600"/>
+  <v:f eqn="sum 10800 0 @18"/>
+ </v:formulas>
+ <v:path textpathok="t" o:connecttype="custom" o:connectlocs="10800,@22;@19,@20;@21,@20"/>
+ <v:textpath on="t" style='v-text-kern:t' fitpath="t"/>
+ <v:handles>
+  <v:h position="@16,#0" polar="10800,10800"/>
+ </v:handles>
+ <o:lock v:ext="edit" text="t" shapetype="t"/>
+</v:shapetype><v:shape id="_x0000_s2703" type="#_x0000_t144" style='position:absolute;
+ left:21.5pt;top:450.12pt;width:70.5pt;height:70.5pt;rotation:3559457fd;
+ z-index:668;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' adj="5977273"
+ fillcolor="#c30" strokecolor="#c30" o:cliptowrap="t">
+ <v:stroke>
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#868686"/>
+ <v:path insetpenok="f"/>
+ <v:textpath style='font-family:"Times New Roman";font-size:8pt' fitshape="t"
+  trim="t" string="THE RUSSIAN ACADEMY OF NATURAL SCIENCES • since 1990 y. •"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:668;
+left:22px;top:593px;width:107px;height:107px'><img width=107 height=107
+src=image535.png alt="THE RUSSIAN ACADEMY OF NATURAL SCIENCES • since 1990 y. •"
+v:shapes="_x0000_s2703"></span><![endif]><!--[if gte vml 1]><v:oval id="_x0000_s2704"
+ style='position:absolute;left:27.37pt;top:455.93pt;width:58.88pt;height:58.88pt;
+ z-index:669;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:oval><![endif]--><![if !vml]><span style='position:absolute;z-index:669;
+left:34px;top:605px;width:84px;height:84px'><img width=84 height=84
+src=image536.png v:shapes="_x0000_s2704"></span><![endif]><!--[if gte vml 1]><v:oval
+ id="_x0000_s2705" style='position:absolute;left:15.93pt;top:444.68pt;width:81.75pt;
+ height:81.75pt;z-index:670;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:oval><![endif]--><![if !vml]><span style='position:absolute;z-index:670;
+left:18px;top:590px;width:115px;height:115px'><img width=115 height=115
+src=image537.png v:shapes="_x0000_s2705"></span><![endif]><!--[if gte vml 1]><v:group
+ id="_x0000_s2706" style='position:absolute;left:120.75pt;top:441pt;width:229.75pt;
+ height:88.13pt;z-index:671' coordorigin="1108329,56292" coordsize="29178,11192">
+ <v:rect id="_x0000_s2707" style='position:absolute;left:1108360;top:56292;
+  width:29147;height:11193;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' o:preferrelative="t" filled="f" fillcolor="white [7]"
+  stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke color2="white [7]">
+   <o:left v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:imagedata src="image539.jpg" o:title="original"/>
+  <v:shadow color="#ccc [4]"/>
+  <v:path o:extrusionok="f" insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+ </v:rect><v:rect id="_x0000_s2708" style='position:absolute;left:1108329;
+  top:62884;width:29146;height:4508;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' stroked="f" strokecolor="black [0]"
+  o:cliptowrap="t">
+  <v:fill color2="white [7]"/>
+  <v:stroke color2="white [7]">
+   <o:left v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+   <o:top v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+   <o:right v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+   <o:bottom v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:path insetpenok="f"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt">
+   <div dir=ltr>
+   <p class=MsoNormal style='text-align:center;text-align:center'><span
+   lang=en-US style='font-size:19.0pt;font-family:"Monotype Corsiva";
+   color:black;font-style:italic;font-weight:bold;letter-spacing:-.4pt;
+   language:en-US'>The Russian academy of science</span><span lang=en-US
+   style='font-size:19.0pt;font-family:"Monotype Corsiva";color:black;
+   font-style:italic;font-weight:bold;letter-spacing:-.2pt;language:en-US'>s</span></p>
+   </div>
+  </v:textbox>
+ </v:rect></v:group><![endif]--><![if !vml]><span style='position:absolute;
+z-index:671;left:159px;top:586px;width:311px;height:122px'><img width=311
+height=122 src=image538.png v:shapes="_x0000_s2706 _x0000_s2707 _x0000_s2708"></span><![endif]><!--[if gte vml 1]><v:group
+ id="_x0000_s2709" style='position:absolute;left:12pt;top:543pt;width:147.09pt;
+ height:82.5pt;z-index:672' coordorigin="1068818,939" coordsize="20669,10515">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:rect id="_x0000_s2710" style='position:absolute;left:1068913;top:1034;
+  width:20524;height:10370' o:preferrelative="t" stroked="f" insetpen="t"
+  o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:imagedata src="image455.emz" o:title=""/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+ </v:rect><v:rect id="_x0000_s2711" style='position:absolute;left:1068818;
+  top:939;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,0,2.88pt,2.88pt">
+   <div dir=ltr>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>RF</span></p>
+   </div>
+  </v:textbox>
+ </v:rect><v:rect id="_x0000_s2712" style='position:absolute;left:1068818;
+  top:7987;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,0">
+   <div dir=ltr>
+   <p class=MsoNormal style='text-align:right;text-align:right'><span
+   lang=en-US style='font-size:8.5pt;font-family:Georgia;color:red;font-style:
+   italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal style='text-align:right;text-align:right'><span
+   lang=en-US style='font-size:12.0pt;font-family:Georgia;color:red;font-style:
+   italic;language:en-US'>“RA(N)S”</span></p>
+   </div>
+  </v:textbox>
+ </v:rect></v:group><![endif]--><![if !vml]><span style='position:absolute;
+z-index:672;left:14px;top:722px;width:200px;height:114px'><img width=200
+height=114 src=image454.png v:shapes="_x0000_s2709 _x0000_s2710 _x0000_s2711 _x0000_s2712"></span><![endif]><!--[if gte vml 1]><v:rect
+ id="_x0000_s2713" style='position:absolute;left:198.75pt;top:540.75pt;width:109.81pt;
+ height:87.85pt;z-index:673;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' o:preferrelative="t" filled="f" fillcolor="white [7]"
+ stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:imagedata src="image458.jpg" o:title="e"/>
+ <v:shadow color="#ccc [4]"/>
+ <v:path o:extrusionok="f" insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:673;
+left:262px;top:718px;width:152px;height:123px'><img width=152 height=123
+src=image458.jpg v:shapes="_x0000_s2713"></span><![endif]><!--[if gte vml 1]><v:group
+ id="_x0000_s2714" style='position:absolute;left:12pt;top:639pt;width:147.09pt;
+ height:82.5pt;z-index:674' coordorigin="1084416,90226" coordsize="20669,10515">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:rect id="_x0000_s2715" style='position:absolute;left:1084511;top:90321;
+  width:20523;height:10370' o:preferrelative="t" stroked="f" insetpen="t"
+  o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:imagedata src="image472.emz" o:title=""/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+ </v:rect><v:rect id="_x0000_s2716" style='position:absolute;left:1084416;
+  top:90226;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,0,2.88pt,2.88pt">
+   <div dir=ltr>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>RF</span></p>
+   </div>
+  </v:textbox>
+ </v:rect><v:rect id="_x0000_s2717" style='position:absolute;left:1084416;
+  top:97274;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,0">
+   <div dir=ltr>
+   <p class=MsoNormal style='text-align:right;text-align:right'><span
+   lang=en-US style='font-size:8.5pt;font-family:Georgia;color:red;font-style:
+   italic;letter-spacing:-1.1pt;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal style='text-align:center;text-align:center'><span
+   lang=en-US style='font-size:12.0pt;font-family:Georgia;color:red;font-style:
+   italic;language:en-US'>“RA(N)S”     “SIO &quot;ACNS&quot;”</span></p>
+   </div>
+  </v:textbox>
+ </v:rect></v:group><![endif]--><![if !vml]><span style='position:absolute;
+z-index:674;left:14px;top:850px;width:200px;height:114px'><img width=200
+height=114 src=image471.png v:shapes="_x0000_s2714 _x0000_s2715 _x0000_s2716 _x0000_s2717"></span><![endif]><!--[if gte vml 1]><v:group
+ id="_x0000_s2718" style='position:absolute;left:211.5pt;top:639pt;width:147.09pt;
+ height:82.5pt;z-index:675' coordorigin="1101594,90991" coordsize="20669,10515">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:rect id="_x0000_s2719" style='position:absolute;left:1101689;top:91086;
+  width:20524;height:10369' o:preferrelative="t" stroked="f" insetpen="t"
+  o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:imagedata src="image2961.emz" o:title=""/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+ </v:rect><v:rect id="_x0000_s2720" style='position:absolute;left:1101594;
+  top:90991;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,0,2.88pt,2.88pt">
+   <div dir=ltr>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>RF</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>RUSSIA</span></p>
+   </div>
+  </v:textbox>
+ </v:rect><v:rect id="_x0000_s2721" style='position:absolute;left:1101594;
+  top:98039;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,0">
+   <div dir=ltr>
+   <p class=MsoNormal style='text-align:right;text-align:right'><span
+   lang=en-US style='font-size:8.5pt;font-family:Georgia;color:red;font-style:
+   italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal style='text-align:right;text-align:right'><span
+   lang=en-US style='font-size:12.0pt;font-family:Georgia;color:red;font-style:
+   italic;language:en-US'>“SIO &quot;ACNS&quot;”</span></p>
+   </div>
+  </v:textbox>
+ </v:rect></v:group><![endif]--><![if !vml]><span style='position:absolute;
+z-index:675;left:280px;top:850px;width:200px;height:114px'><img width=200
+height=114 src=image461.png v:shapes="_x0000_s2718 _x0000_s2719 _x0000_s2720 _x0000_s2721"></span><![endif]><!--[if gte vml 1]><v:group
+ id="_x0000_s2722" style='position:absolute;left:411pt;top:639pt;width:147.09pt;
+ height:82.5pt;z-index:676' coordorigin="1127941,91086" coordsize="20669,10515">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:rect id="_x0000_s2723" style='position:absolute;left:1128036;top:91181;
+  width:20524;height:10370' o:preferrelative="t" stroked="f" insetpen="t"
+  o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:imagedata src="image549.emz" o:title=""/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+ </v:rect><v:rect id="_x0000_s2724" style='position:absolute;left:1127941;
+  top:91086;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,0,2.88pt,2.88pt">
+   <div dir=ltr>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>RF</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal><span lang=en-US style='font-size:14.0pt;font-family:
+   "Franklin Gothic Demi";color:#FFCC00;font-style:italic;language:en-US'>RUSSIA</span></p>
+   </div>
+  </v:textbox>
+ </v:rect><v:rect id="_x0000_s2725" style='position:absolute;left:1127941;
+  top:98135;width:20669;height:3467;mso-wrap-distance-left:2.88pt;
+  mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+  mso-wrap-distance-bottom:2.88pt' filled="f" stroked="f" o:cliptowrap="t">
+  <v:stroke>
+   <o:left v:ext="view" joinstyle="miter"/>
+   <o:top v:ext="view" joinstyle="miter"/>
+   <o:right v:ext="view" joinstyle="miter"/>
+   <o:bottom v:ext="view" joinstyle="miter"/>
+  </v:stroke>
+  <v:shadow color="#ccc"/>
+  <v:path insetpenok="f"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+  <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,0">
+   <div dir=ltr>
+   <p class=MsoNormal style='text-align:right;text-align:right'><span
+   lang=en-US style='font-size:8.5pt;font-family:Georgia;color:red;font-style:
+   italic;language:en-US'>&nbsp;</span></p>
+   <p class=MsoNormal style='text-align:right;text-align:right'><span
+   lang=en-US style='font-size:12.0pt;font-family:Georgia;color:red;font-style:
+   italic;language:en-US'>“SIO &quot;ACNS&quot;”</span></p>
+   </div>
+  </v:textbox>
+ </v:rect></v:group><![endif]--><![if !vml]><span style='position:absolute;
+z-index:676;left:546px;top:850px;width:200px;height:114px'><img width=200
+height=114 src=image548.png v:shapes="_x0000_s2722 _x0000_s2723 _x0000_s2724 _x0000_s2725"></span><![endif]>
+</div>
+
+</body>
+
+</html>
